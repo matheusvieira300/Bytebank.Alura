@@ -18,5 +18,8 @@ public class CriaConta {
         System.out.println(segundaConta.saldo);
         System.out.println(primeiraConta.saldo);
 
+        primeiraConta.titular = "Lucas Kato";
+        System.out.println(primeiraConta.titular);
+
     }
 }
